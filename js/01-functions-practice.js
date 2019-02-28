@@ -1,5 +1,6 @@
 /*eslint-env broswer*/
 /*jslint devel: true */
+
 //STEP 1 - halfNumber
 /*function halfNumber(num1) {
     "use strict";

@@ -1,5 +1,6 @@
 /*eslint-env broswer*/
 /*jslint devel: true */
+
 //User makes a choice
 var userChoice = prompt("Let's play! \nRock, Paper, or Scissors?");
 

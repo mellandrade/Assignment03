@@ -1,21 +1,33 @@
 /*eslint-env broswer*/
 /*jslint devel: true */
-var x = Number(prompt("Enter a number."));
-var y = Number(prompt("Enter a second number."));
-var z = prompt("Select add, subtract, multiply, or divide.");
+
+var calculate = prompt("Select add, subtract, multiply, or divide.");
+var x = prompt("Enter a number:");
+var y = prompt("Enter a second number:");
 var result;
 
-function calculate(x, y, z) {
-    "use strict";
-    var $ = function ()
-    
-    if (z === add) {
-        return "x + y";
-        alert("The sum equals to" + return);
-    }
+switch (calculate) {
+case "add":
+    result = Number(x) + Number(y);
+    alert(result);
+    break;
+        
+case "subtract":
+    result = Number(x) - Number(y);
+    alert(result);
+    break;
+        
+case "multiply":
+    result = Number(x) * Number(y);
+    alert(result);
+    break;
+        
+case "divide":
+    result = Number(x) / Number(y);
+    alert(result);
+    break;
+        
+default:
+    alert("Nope. Please select add, subtract, multiply, or divide.");
+    break;
 }
-    
-    
-    x - y
-    x * y
-    x/y
